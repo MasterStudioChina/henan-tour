@@ -1,0 +1,390 @@
+/*字体*/
+@font-face 
+    {
+    font-family: MiSans-Medium;
+    src:url(../Font/MiSans-Medium.ttf);
+}
+@font-face 
+    {
+    font-family: MiSans-Normal;
+    src:url(../Font/MiSans-Normal.ttf);
+}
+@font-face 
+    {
+    font-family: MiSans-Light;
+    src:url(../Font/MiSans-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background-color: #F5F5F7;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+/*顶部导航栏*/
+#header{
+    background-color: #D4A120;
+}
+ul {
+    font-family: MiSans-Normal;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D4A120;
+    height: 58px;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    height: 58px;
+    line-height: 29px;
+}
+li a:hover {
+    background-color: #FCC842;
+    font-weight: bold;
+}
+/*Logo*/
+#Logo{
+    width: 48px;
+    height: 48px;
+    background-image: url(../images/GuoVinci-Logo.png);
+    background-size: 48px 48px;
+    float: left;
+    margin: 6px;
+    border-radius: 10px;
+}
+#WelcomeHeNan{
+    width: 160px;
+    height: 50px;
+    background-image: url(../Images/河南欢迎您.png);
+    background-repeat: no-repeat;
+    background-size: 160px 50px;
+    float: left;
+    position: relative;
+    top: -55px;
+    left: 990px;
+}
+
+/*内容*/  
+#Banner{
+    width: 1247px;
+    height: 264px;
+    background-image: url(../Images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1247px 264px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#Banner-text{
+    font-family: 宋体;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF;
+    position: relative;
+    top: 30px;
+    left: 660px;
+    text-decoration: none;
+}
+#Banner-text:hover{
+    color: #FCC842;
+}
+#Banner-text p{
+    font-family: 宋体;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+/*游在河南*/
+#main{
+    height: 1500px;
+    background-color: #F5F5F7;
+}
+#box{
+    width: 1220px;
+    height: 878px;
+    margin: 0 auto;
+    background-color: #F5F5F7;
+    border-radius: 16px;
+    position: relative;
+    top: 0px;
+}
+
+#Content1{
+    width: 1220px;
+    height: 140px;
+    border-radius: 16px;
+    font-family: 宋体;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    position: relative;
+    top: 14px;
+    left: 0px;
+    margin: 0 auto;
+}
+h2{
+    display: block;
+    font-family: 宋体;
+    font-weight: bold;
+}
+#Content2{
+    width: 1220px;
+    height: 522px;
+    background-image: url(../Images/zyhn5.jpg);
+    background-repeat: no-repeat;
+    background-size: 1240px 522px;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+#text2{
+    font-family: 宋体;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFF;
+    display: inline;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    text-decoration: none;
+}
+#text2:hover{
+    color: #FCC842;
+}
+#Content3{
+    width: 400px;
+    height: 246px;
+    background-image: url(../Images/zyhn4.jpg);
+    background-size: 400px 246px;
+    border-radius: 16px;
+    position: relative;
+    top: 16px;
+    float: left;
+}
+
+#Content4{
+    width: 800px;
+    height: 246px;
+    border-radius: 16px;
+    position: relative;
+    top: 28px;
+    left: 20px;
+    float: left;
+    font-family: MiSans-Normal;
+    font-size: 14px;
+    display: inline;
+}
+
+#Content5{
+    width: 290px;
+    height: 220px;
+    background-image: url(../Images/老君山.jpg);
+    background-repeat: no-repeat;
+    background-size: 290px 220px;
+    position: relative;
+    top: 70px;
+    border-radius: 16px;
+    float: left;
+
+}   
+#Content6{
+    width: 290px;
+    height: 220px;
+    background-image: url(../Images/老君山2.jpg);
+    background-repeat: no-repeat;
+    background-size: 290px 220px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+    border-radius: 16px;
+    float: left;
+
+}   
+#Content7{
+    width: 290px;
+    height: 220px;
+    background-image: url(../Images/老君山3.jpg);
+    background-repeat: no-repeat;
+    background-size: 290px 220px;
+    position: relative;
+    top: 70px;
+    left: 40px;
+    border-radius: 16px;
+    float: left;
+
+}   
+#Content8{
+    width: 290px;
+    height: 220px;
+    background-image: url(../Images/老君山4.png);
+    background-repeat: no-repeat;
+    background-size: 290px 220px;
+    position: relative;
+    top: 70px;
+    left: 60px;
+    border-radius: 16px;
+    float: left;
+}   
+#Content9{
+    width: 1220px;
+    height: 270px;
+    margin: 0 auto;
+    border-radius: 16px;
+    position: relative;
+    top: 100px;
+    float: left;
+    font-family: MiSans-Normal;
+    font-size: 14px;
+    display: inline;
+}
+#Content9 p{
+    margin-top: 14px;
+}
+#text3{
+    font-family: MiSans-Medium;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*食在中原*/
+#main2{
+    width: 1247px;
+    height: 420px;
+    margin: 0 auto;
+}
+#box2{
+    width: 1220px;
+    height: 330px;
+    margin: 0 auto;
+    position: relative;
+    top: 16px;
+}
+#text4{
+    font-family: MiSans-Medium;
+    font-size: 20px;
+    color: #000;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+#Content10{
+    width: 220px;
+    height: 220px;
+    background-image: url(../Images/huimian.jpeg);
+    background-repeat: no-repeat;
+    background-size: 220px 220px;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 16px;
+}
+#Content11{
+    width: 220px;
+    height: 220px;
+    background-image: url(../Images/guantangbao.jpg);
+    background-repeat: no-repeat;
+    background-size: 220px 220px;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    border-radius: 16px;  
+}
+#Content12{
+     width: 220px;
+    height: 220px;
+    background-image: url(../Images/hulatang.jfif);
+    background-repeat: no-repeat;
+    background-size: 220px 220px;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    border-radius: 16px; 
+}
+#Content13{
+     width: 220px;
+    height: 220px;
+    background-image: url(../Images/sanzi.jpeg);
+    background-repeat: no-repeat;
+    background-size: 220px 220px;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    border-radius: 16px;   
+}
+#Content14{
+     width: 220px;
+    height: 220px;
+    background-image: url(../Images/shaoji.jpeg);
+    background-repeat: no-repeat;
+    background-size: 220px 220px;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    border-radius: 16px;   
+}
+.text5{
+    font-family: 宋体;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 230px;
+    left: 10px;
+    color: #B08005;
+}
+#SideBar{
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    background-image: url(../Images/BackTop.svg);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    position: fixed;
+}
+#SideBar:hover{
+    background-color: #FFDE8C;
+    background-image: url(../Images/BackTop1.svg);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+}
+
+/*底部栏*/
+#footer{
+    background-color: #D4A120;
+    text-align: center;
+    font-family: MiSans-Normal;
+    font-size: 16px;
+    color: #FFF;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    padding: 22px 0 22px 0;
+}
+#footer a{
+    color: #FFF;
+}
+#footer a:hover{
+    text-decoration: underline;
+}

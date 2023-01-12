@@ -1,0 +1,120 @@
+@font-face 
+    {
+    font-family: MiSans-Medium;
+    src:url(../Font/MiSans-Medium.ttf);
+}
+@font-face 
+    {
+    font-family: MiSans-Normal;
+    src:url(../Font/MiSans-Normal.ttf);
+}
+@font-face 
+    {
+    font-family: MiSans-Light;
+    src:url(../Font/MiSans-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+/*顶部导航栏*/
+#header{
+    background-color: #333;
+}
+
+ul {
+    font-family: MiSans-Normal;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 58px;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    height: 58px;
+    line-height: 29px;
+}
+li a:hover {
+    background-color: #111;
+}
+/*Logo*/
+#Logo{
+    width: 48px;
+    height: 48px;
+    background-image: url(../images/GuoVinci-Logo.png);
+    background-size: 48px 48px;
+    float: left;
+    margin: 6px;
+
+    border-radius: 10px;
+} 
+
+#main{
+    width: 1250px;
+    height: 600px;
+    background-color: #F5F5F7;
+}
+
+#My {
+    width: 200px;
+    height: 200px;
+    background-image: url(../Images/GuoVinci-Logo.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 60px;
+    background-size: 200px 200px;
+    border-radius: 16px;
+    float: left;
+}
+
+#Intro {
+    width: 300px;
+    height: 300px;
+    line-height: 24px;
+    display: inline-block;
+    font-family:MiSans-Normal ;
+    font-size: 18px;
+    margin: 20px 0 0 20px;
+    text-align: left;
+    float: left;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+#Intro p {
+    margin-top: 10px;
+}
+#Intro p a:hover{
+    text-decoration: underline;
+}
+/*底部栏*/
+#footer{
+    background-color: #000;
+    text-align: center;
+    font-family: MiSans-Normal;
+    font-size: 16px;
+    color: #FFF;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    padding: 22px 0 22px 0;
+}
+#footer a{
+    color: #FFF;
+}
+#footer a:hover{
+    text-decoration: underline;
+}
